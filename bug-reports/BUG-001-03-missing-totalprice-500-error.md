@@ -48,7 +48,7 @@ API is accessible at https://restful-booker.herokuapp.com
 ```json
 {
   "firstname": "Felicia",
-  "lastname": "Agbo",
+  "lastname": "Test",
   "depositpaid": true,
   "bookingdates": {
     "checkin": "2026-07-01",
