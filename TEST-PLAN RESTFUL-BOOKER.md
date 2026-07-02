@@ -47,7 +47,7 @@ Includes positive testing, negative testing, field validation, data type validat
 | Field | Valid Data | Invalid Data | Observed Behaviour |
 |---|---|---|---|
 | firstname | "Felicia" | "1234567", "" | Valid creates booking; invalid should reject but doesn't |
-| lastname | "Agbo" | "%%%132", "" | Valid creates booking; invalid should reject but doesn't |
+| lastname | "Test" | "%%%132", "" | Valid creates booking; invalid should reject but doesn't |
 | totalprice | 200 | "high", "" | Valid creates booking; invalid correctly rejected |
 | depositpaid | true | "Good", "" | Valid creates booking; invalid correctly rejected |
 | checkin | "2026-07-01" | "notadate", "" | Valid creates booking; invalid should reject but doesn't |
